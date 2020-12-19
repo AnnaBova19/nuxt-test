@@ -1,10 +1,17 @@
 <template>
   <section>
-    <h1>Error 404</h1>
-
-    <nuxt-link to="/">Go to Home</nuxt-link>
+    <h1 v-if="error.statusCode === 404">Page not found</h1>
+    <h1 v-else>An error occurred</h1>
+    <NuxtLink to="/">Home page</NuxtLink>
   </section>
 </template>
+
+<script>
+export default {
+  props: ['error'],
+  layout: 'empty'
+}
+</script>
 
 <style scoped>
   section {

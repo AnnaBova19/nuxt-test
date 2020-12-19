@@ -16,6 +16,9 @@
           <nuxt-link active-class="active" class="nav-link" to="/users">
             Users
           </nuxt-link>
+          <nuxt-link active-class="active" class="nav-link" to="/mountains">
+            Mountains
+          </nuxt-link>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
