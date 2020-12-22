@@ -22,6 +22,16 @@ export default {
     showList() {
       this.show = true
     }
+  },
+  head: {
+    title: 'Mountains list',
+    meta: [
+      {
+        hid: 'mountains list',
+        name: 'mountains list',
+        content: 'Mountains list description'
+      }
+    ],
   }
 }
 </script>

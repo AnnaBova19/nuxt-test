@@ -34,6 +34,16 @@ export default {
     openUser(user) {
       this.$router.push(`/users/${user.id}`)
     }
+  },
+  head: {
+    title: 'Users page',
+    meta: [
+      {
+        hid: 'users page',
+        name: 'users page',
+        content: 'Users page description'
+      }
+    ],
   }
 }
 </script>

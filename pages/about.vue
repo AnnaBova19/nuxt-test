@@ -28,6 +28,15 @@
 
 <script>
 export default {
-
+  head: {
+    title: 'About page',
+    meta: [
+      {
+        hid: 'about page',
+        name: 'about page',
+        content: 'About page description'
+      }
+    ],
+  }
 }
 </script>

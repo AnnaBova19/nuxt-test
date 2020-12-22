@@ -15,5 +15,15 @@ export default {
     const user = await $axios.$get(`https://jsonplaceholder.typicode.com/users/${params.id}`)
     return {user}
   },
+  head: {
+    title: 'User page',
+    meta: [
+      {
+        hid: 'user page',
+        name: 'user page',
+        content: 'User page description'
+      }
+    ],
+  }
 }
 </script>
