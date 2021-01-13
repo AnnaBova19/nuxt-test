@@ -59,5 +59,9 @@ export default {
   generate: {
     fallback: true
   },
-  buildDir: 'nuxt-dist'
+  buildDir: 'dist',
+  buildModules: [
+    // Simple usage
+    '@nuxtjs/netlify-files'
+  ]
 }
