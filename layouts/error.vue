@@ -14,14 +14,14 @@ export default {
 </script>
 
 <style scoped>
-  section {
-    width: 600px;
-    margin: 0 auto;
-    padding-top: 5rem;;
-  }
+section {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 5rem;;
+}
 
-  h1 {
-    color: red;
-  }
+h1 {
+  color: red;
+}
 </style>
 

@@ -6,7 +6,7 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
+        <div class="navbar-nav">
           <nuxt-link exact no-prefetch active-class="active" class="nav-link" to="/">
             Home
           </nuxt-link>
@@ -22,10 +22,10 @@
           <nuxt-link active-class="active" class="nav-link" to="/mountains">
             Mountains
           </nuxt-link>
-        </b-navbar-nav>
+        </div>
 
         <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
+        <div class="navbar-nav ml-auto">
           <nuxt-link v-if="!hasToken" active-class="active" class="nav-link" to="/login">
             Login
           </nuxt-link>
@@ -48,7 +48,7 @@
             <b-dropdown-item href="#">Profile</b-dropdown-item>
             <b-dropdown-item @click.prevent="logout" href="#">Sign Out</b-dropdown-item>
           </b-nav-item-dropdown>
-        </b-navbar-nav>
+        </div>
       </b-collapse>
     </b-navbar>
   </div>
@@ -69,6 +69,3 @@ export default {
   } 
 }
 </script>
-
-<style>
-</style>

@@ -42,7 +42,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .list-block {
-    display: flex;
-  }
+.list-block {
+  display: flex;
+}
 </style>

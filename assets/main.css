@@ -7,3 +7,9 @@
 .page-leave-to {
   opacity: 0;
 }
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; 
+}
+.nav-link.active {
+  font-weight: 700;
+}

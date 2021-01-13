@@ -1,11 +1,20 @@
+import shrinkRay from 'shrink-ray-current'
+
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'nuxt-test',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    title: 'Nuxt test',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Nuxt test project description'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -39,5 +48,15 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  // all files matching glob patterns specified inside ignore will be ignored in building
+  // ignore: 'pages/bar.vue'
+
+  render: {
+    compressor: shrinkRay(),
+  },
+  generate: {
+    fallback: true
   }
 }

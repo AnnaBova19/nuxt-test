@@ -32,8 +32,8 @@ export default {
 </script>
 
 <style scoped>
-  form {
-    width: 500px;
-    margin: 0 auto;
-  }
+form {
+  width: 500px;
+  margin: 0 auto;
+}
 </style>

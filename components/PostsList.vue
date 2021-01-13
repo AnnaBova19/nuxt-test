@@ -62,20 +62,20 @@
 </script>
 
 <style lang="scss" scoped>
-  .post-list {
-    list-style: none;
-    padding-inline-start: 0;
-    li {
-      display: block;
-      padding: 10px;
-      border-radius: 6px;
-      background-color: #f9f5f5;
-      margin-bottom: 15px;
-      transition: box-shadow .4s cubic-bezier(.25,.8,.25,1);
-      &:hover {
-        cursor: pointer;
-        box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
-      }
+.post-list {
+  list-style: none;
+  padding-left: 0 !important;
+  li {
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f9f5f5;
+    margin-bottom: 15px;
+    transition: box-shadow .4s cubic-bezier(.25,.8,.25,1);
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
     }
   }
+}
 </style>
