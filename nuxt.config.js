@@ -58,5 +58,6 @@ export default {
   },
   generate: {
     fallback: true
-  }
+  },
+  buildDir: 'nuxt-dist'
 }
